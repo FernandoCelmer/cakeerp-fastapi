@@ -16,7 +16,7 @@ app = FastAPI()
 
 @app.get("/status")
 def status():
-    return {"message": "ok"}
+    return {"message": "Programa de Talentos 2022! CakeERP - NL Informática by Fernando Celmer"}
 
 
 @app.get("/items", response_model=List[SchemaItem])
